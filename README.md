@@ -120,7 +120,7 @@ Renames each trajectory column to `<name>_<fibril contour ID>_<X>_<Y>` (contour 
 
 ### 7. py4bleaching
 
-> **TODO: fill in.** The Python code isn't in this folder. Add the version or notebook used, the settings (for example step-detection and molecule-size parameters), and the exact command or notebook to run.
+This code is available at 10.5281/zenodo.10616736.
 
 Run on the renamed trajectory CSVs in `imagejresults/`, separately for each fluorophore. The R scripts that follow expect a single results file, `python_results/calculate_molecule_size/molecule_counts.csv`, with these columns: `Contour_ID`, `coordsX`, `coordsY`, `max_fluorescence`, `all_small_mol_count`, `last_step_mol_count`, `single_step_mol_count`, `protein1` (holds the concentration), and `variable1` (`"Non-coloc"` marks non-colocalised molecules).
 
